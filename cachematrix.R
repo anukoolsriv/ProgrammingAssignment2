@@ -43,3 +43,15 @@ cacheSolve <- function(x, ...) {
   inverse$setinverse(inverse)   # sets the inverse of the matrix
     inverse            # returns inverse
 }
+## Output
+#  z <- makeCacheMatrix()
+# > z$set(mat)
+# > z$get()
+#      [,1] [,2]
+# [1,]    4    7
+# [2,]    2    6
+# > z$setinverse()
+# > z$getinverse()
+#      [,1] [,2]
+# [1,]  0.6 -0.7
+# [2,] -0.2  0.4
